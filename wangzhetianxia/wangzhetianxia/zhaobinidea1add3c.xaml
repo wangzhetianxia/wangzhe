@@ -1,0 +1,35 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="wangzhetianxia.zhaobinidea1add3c"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28"/>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Image Opacity="0.4" Source="/87c7114ca8a24f283fd12efe13e2f6e6.jpg" Stretch="Fill"/>
+
+            <TextBlock HorizontalAlignment="Left" Height="758" Margin="10,10,-14,-161" TextWrapping="Wrap" VerticalAlignment="Top" Width="460" Text="　　Trapani管这叫“早上的一次冲刺”，当她早上开始工作的时候，她会检查自己所有的电子邮件，并花一个小时的时间整理出待办事项的优先级，这是一个很不错的工作方法，因为即使你不能在一个小时内做完所有事情，当你一旦开始工作的时候你会感觉更轻松。她还指出，这项处理最好能在前一天的晚上做完，这样，当你在早上开始工作的时候，你已经知道了今天最重要的任务是哪些了。"/>
+
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,44 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="wangzhetianxia.zhaobinidea1add3"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28"/>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Image Opacity="0.4" Source="/1ad0592856a0c96f89e557868890695e.jpg" Stretch="Fill"/>
+
+            <Button Content="1、不要在收件箱中保留电子邮件        " HorizontalAlignment="Left" Height="77" Margin="11,0,0,0" VerticalAlignment="Top" Width="424" Click="Button_Click_1"/>
+            <Button Content="2、一心不可二用                                 " HorizontalAlignment="Left" Height="77" Margin="11,55,0,0" VerticalAlignment="Top" Width="424" Click="Button_Click_2"/>
+            <Button Content="3、先做最重要的事情                          " Height="77" Margin="11,110,0,0" VerticalAlignment="Top" Click="Button_Click_3" HorizontalAlignment="Left" Width="424"/>
+            <Button Content="4、在固定的时间处理电子邮件           " HorizontalAlignment="Left" Height="77" Margin="11,165,0,0" VerticalAlignment="Top" Width="424" Click="Button_Click_4"/>
+            <Button Content="5、组织整理好网站地址                      " HorizontalAlignment="Left" Height="77" Margin="11,220,0,0" VerticalAlignment="Top" Width="424" Click="Button_Click_5"/>
+            <Button Content="6、了解最佳工作状态的时间               " HorizontalAlignment="Left" Height="77" Margin="11,275,0,0" VerticalAlignment="Top" Width="424" Click="Button_Click_6"/>
+            <Button Content="7、加快打字速度                                 " HorizontalAlignment="Left" Height="77" Margin="11,330,0,0" VerticalAlignment="Top" Width="424" Click="Button_Click_7"/>
+            <Button Content="8、万事开头难，先从简单的工作入手" HorizontalAlignment="Left" Height="77" Margin="11,385,0,0" VerticalAlignment="Top" Width="424" Click="Button_Click_8"/>
+            <Button Content="9、每天都整理工作任务清单               " HorizontalAlignment="Left" Height="77" Margin="11,440,0,0" VerticalAlignment="Top" Width="424" Click="Button_Click_9"/>
+            <Button Content="10、敢于放慢速度                                " HorizontalAlignment="Left" Height="77" Margin="11,495,0,0" VerticalAlignment="Top" Width="424" Click="Button_Click_10"/>
+
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

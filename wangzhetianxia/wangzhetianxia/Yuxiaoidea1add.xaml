@@ -1,0 +1,60 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="wangzhetianxia.Yuxiaoidea1add"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot 是包含所有页面内容的根网格-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel 包含应用程序的名称和页标题-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="紧急事件之" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="战场受命" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - 在此处放置其他内容-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+           
+            <TextBox  Margin="0,0,292,0" TextWrapping="Wrap" Text="2013/5/20" VerticalAlignment="Top" x:Name="Time"/>
+            
+            
+            <TextBox HorizontalAlignment="Left" Height="72" Margin="10,430,-10,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="456" x:Name="content"/>
+            <Button Content="请战！" HorizontalAlignment="Left" Margin="10,502,0,0" VerticalAlignment="Top" Click="Button_Click_1" BorderBrush="#FFA04D4D" Background="#FF890C00"/>
+            <TextBlock HorizontalAlignment="Left" Margin="24,72,0,0" TextWrapping="Wrap" Text="战役类型" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Left" Margin="24,191,0,0" TextWrapping="Wrap" Text="关键程度" VerticalAlignment="Top"/>
+            
+            <StackPanel>
+                <RadioButton Content="个人" HorizontalAlignment="Left" Margin="24,87,0,0" VerticalAlignment="Top" Width="121" x:Name="geren" IsChecked="True" />
+                <RadioButton Content="团体" HorizontalAlignment="Left" Margin="145,-70,0,0" VerticalAlignment="Top" Width="132" x:Name="tuanti" />
+            </StackPanel>
+           
+            <StackPanel HorizontalAlignment="Left" Height="157" Margin="30,248,0,0" VerticalAlignment="Top" Width="335">
+                <RadioButton Content="日常" Margin="0,0,190,0" IsChecked="True" x:Name="richang"/>
+                <RadioButton Content="周期" Margin="150,-80,38,0" Height="74" x:Name="zhouqi"/>
+                
+                <RadioButton Content="特殊" Margin="0,0,190,0" x:Name="teshu"/>
+                <RadioButton Content="生死攸关" Margin="150,-80,26,0" Height="74" x:Name="shengsiyouguan"/>
+
+            </StackPanel>
+            <TextBox HorizontalAlignment="Left" Margin="169,1,0,0" TextWrapping="Wrap" Text="13" x:Name="hour" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Left" Margin="230,17,0,0" TextWrapping="Wrap" Text="时"  VerticalAlignment="Top" FontSize="27"/>
+            <TextBlock HorizontalAlignment="Left" Margin="153,17,0,0" TextWrapping="Wrap" Text="日" VerticalAlignment="Top" FontWeight="Bold" FontSize="27"/>
+            <TextBlock HorizontalAlignment="Left" Margin="24,405,0,0" TextWrapping="Wrap" Text="内容"  VerticalAlignment="Top" FontSize="27"/>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

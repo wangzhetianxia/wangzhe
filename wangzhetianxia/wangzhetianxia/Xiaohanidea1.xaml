@@ -1,0 +1,64 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="wangzhetianxia.Xiaohanidea1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot 是包含所有页面内容的根网格-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel 包含应用程序的名称和页标题-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="好友生日提醒功能" Style="{StaticResource PhoneTextNormalStyle}" Foreground="#FFFFDC00"/>
+            <TextBlock Text="王者诞生" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Foreground="#FFFFDC00"/>
+        </StackPanel>
+
+        <!--ContentPanel - 在此处放置其他内容-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+        	<Image Margin="10,-153,0,0" Source="2.jpg" Stretch="Fill" Opacity="0.5"/>
+        	<TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="49" Width="367" FontSize="26.667" Text="今日之王者：" Foreground="#FFFFDC00"/>
+        	<TextBlock HorizontalAlignment="Left" Margin="10,237,0,0" TextWrapping="Wrap" Text="请输入日期（月/日：如8/20）:" VerticalAlignment="Top" Width="346" Height="32" Foreground="#FFFFDC00"/>
+            <TextBox x:Name="textbox3" HorizontalAlignment="Left" Height="72" Margin="10,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195" TextChanged="textbox3_TextChanged" Foreground="Yellow" Background="#BFC99BC1"/>
+            <phone:LongListSelector x:Name="ListItems2" HorizontalAlignment="Left" Margin="10,49,0,393" Width="436" Foreground="#FFF3FF00" >
+                <phone:LongListSelector.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <CheckBox x:Name="CheckBoxComplete1"   Content="{Binding Name}" Margin="10,5" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </phone:LongListSelector.ItemTemplate>
+            </phone:LongListSelector>
+            <TextBlock HorizontalAlignment="Left" Margin="10,198,0,0" TextWrapping="Wrap" Text="预知未来：" VerticalAlignment="Top" Width="346" Height="39" FontSize="29.333" Foreground="#FFFFDC00"/>
+        	<TextBlock HorizontalAlignment="Left" Margin="10,346,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="49" Width="367" FontSize="26.667" Text="未来之领袖：" Foreground="#FFFFDC00"/>
+            <Button x:Name="button2" Content="提 交" HorizontalAlignment="Left" Margin="251,274,0,0" VerticalAlignment="Top" Height="77" Width="159" Click="Button_Click_1" Background="#FFBC98BD" Foreground="#FFFFF300"/>
+            <phone:LongListSelector x:Name="ListItems1" HorizontalAlignment="Left" Margin="10,395,0,10" Width="436" Foreground="#FFF3FF00" >
+                <phone:LongListSelector.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <CheckBox x:Name="CheckBoxComplete2"   Content="{Binding Name}" Margin="10,5" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </phone:LongListSelector.ItemTemplate>
+            </phone:LongListSelector>
+        </Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="12,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="458" Foreground="#FFFFDC00">
+        	<Run Text="                     "/>
+        	<Run Text="——读取今日之王者，查询"/>
+        	<Run Text="未来之领袖"/>
+        </TextBlock>
+    </Grid>
+
+</phone:PhoneApplicationPage>

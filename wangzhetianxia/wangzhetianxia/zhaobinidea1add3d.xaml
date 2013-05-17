@@ -1,0 +1,35 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="wangzhetianxia.zhaobinidea1add3d"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28"/>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Image Opacity="0.4" Margin="0,0,-14,0" Source="/128d51e6c515cc600f21e9653b5c290b.jpg" Stretch="Fill"/>
+
+            <TextBlock HorizontalAlignment="Left" Height="758" Margin="10,10,-14,-161" TextWrapping="Wrap" VerticalAlignment="Top" Width="460" Text="　　“来一封邮件就立刻阅读并进行答复并不是一个高效的工作方式，因为有人能立刻联络你并不意味着你必须立即回应他”，Dan Markovitz说，“人们需要的是一个明确的回应，而不是一个快速的回应”。只要人们知道等待一个答案需要时间，并且他们知道在紧急状况下如何能联系到你，那么大多数类型的电子邮件，你就只需要一天处理几次即可。"/>
+
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>
