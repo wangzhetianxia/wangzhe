@@ -29,10 +29,10 @@
         <!--ContentPanel - 在此处放置其他内容-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
            
-            <TextBox  Margin="0,0,292,0" TextWrapping="Wrap" Text="2013/5/20" VerticalAlignment="Top" x:Name="Time"/>
+            <TextBox  Margin="0,0,292,0" TextWrapping="Wrap" Text="2013/05/20" VerticalAlignment="Top" x:Name="Time"/>
             
             
-            <TextBox HorizontalAlignment="Left" Height="72" Margin="10,430,-10,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="456" x:Name="content"/>
+            <TextBox HorizontalAlignment="Left" Height="72" Margin="10,430,-10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="456" x:Name="content"/>
             <Button Content="请战！" HorizontalAlignment="Left" Margin="10,502,0,0" VerticalAlignment="Top" Click="Button_Click_1" BorderBrush="#FFA04D4D" Background="#FF890C00"/>
             <TextBlock HorizontalAlignment="Left" Margin="24,72,0,0" TextWrapping="Wrap" Text="战役类型" VerticalAlignment="Top"/>
             <TextBlock HorizontalAlignment="Left" Margin="24,191,0,0" TextWrapping="Wrap" Text="关键程度" VerticalAlignment="Top"/>

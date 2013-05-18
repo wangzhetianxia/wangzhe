@@ -176,6 +176,8 @@ namespace wangzhetianxia
         {
             InitializeComponent();
             Username=YuXiaoindex.Username;
+            now = DateTime.Now;
+            Time.Text = now.Year + "/" + now.Month + "/" + now.Day;
             RefreshTodoItems();
           //  back.Background = new SolidColorBrush(System.Windows.Media.Color.FromArgb(111, 255, 0, 255));
             
@@ -521,8 +523,7 @@ namespace wangzhetianxia
         {
             // This code refreshes the entries in the list view be querying the TodoItems table.
             // The query excludes completed TodoItems
-          //  now = DateTime.Now;
-           // Time.Text = now.Year + "/" + now.Month + "/" + now.Day;
+            
             Zw = Zd = 0;
             j1.Text = j2.Text = j3.Text = "";
             String time = Time.Text;

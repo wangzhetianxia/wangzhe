@@ -330,7 +330,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="fe1bcd2a45e3c9617af5d429e45d3f5a.jpg" />
+    <Content Include="index%28完成版2%29.jpg" />
     <Content Include="indexw.jpg" />
+    <Content Include="indexww.jpg" />
     <Content Include="pang.png" />
     <Content Include="piao.jpg" />
     <Content Include="qiang.jpg" />

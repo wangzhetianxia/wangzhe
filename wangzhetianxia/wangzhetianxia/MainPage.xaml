@@ -21,7 +21,7 @@
             <phone:PivotItem Header="登陆">
                 <!--具有文字环绕的双线列表-->
                 <StackPanel HorizontalAlignment="Left" Height="603" VerticalAlignment="Top" Width="456">
-                    <TextBlock TextWrapping="Wrap" Text="谁曾挑开面纱之下，化不开的冰冷，撼动着巍巍红尘" Height="203" FontFamily="DFKai-SB" FontSize="48" Foreground="#FFD31F1F" />
+                    <TextBlock TextWrapping="Wrap" Text="谁曾挑开面纱之下，化不开的冰冷，撼动着巍巍红尘！" Height="203" FontFamily="DFKai-SB" FontSize="48" Foreground="#FFD31F1F" />
                     <TextBlock TextWrapping="Wrap" Text="用户名" Margin="0,130,208,0"/>
                     <TextBlock TextWrapping="Wrap" Text="密码" Margin="0,50,208,0"/>
                     <TextBox Margin="107,-200,0,0" Height="74" x:Name="username" Background="#BF1D0E0E" BorderBrush="#BF3E1642"></TextBox>
@@ -39,7 +39,7 @@
             <phone:PivotItem Header="注册">
                 <!--无文字环绕的双线列表-->
                 <StackPanel HorizontalAlignment="Left" Height="603" VerticalAlignment="Top" Width="456">
-                    <TextBlock TextWrapping="Wrap" Text="谁曾拒绝万人之上，未完整的缘分，黯然着落落风生" Height="203" FontFamily="DFKai-SB" FontSize="48" Foreground="#FFD31F1F" />
+                    <TextBlock TextWrapping="Wrap" Text="谁曾拒绝万人之上，未完整的缘分，黯然着落落风生！" Height="203" FontFamily="DFKai-SB" FontSize="48" Foreground="#FFD31F1F" />
                     <TextBlock TextWrapping="Wrap" Text="新用户名" Margin="0,130,208,0"/>
                     <TextBlock TextWrapping="Wrap" Text="新密码" Margin="0,50,208,0"/>
                     <TextBox Margin="107,-200,0,0" Height="74" x:Name="rusername" Background="#BF33508F" BorderBrush="#BF611B1B"/>
