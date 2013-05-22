@@ -28,7 +28,7 @@
             <Image Source="/1c93f5317f36070b866e295a418bdb68.jpg" Stretch="Fill" HorizontalAlignment="Left" Width="456" Opacity="0.4"/>
 
             <TextBlock HorizontalAlignment="Left" Height="758" Margin="10,10,-14,-161" TextWrapping="Wrap" VerticalAlignment="Top" Width="460">
-        		<Run Text="1、平均每八分钟会受到一次打扰"/>
+        		<Run Text="1、平均每八分钟会受到一次打扰 "/>
         		<LineBreak/>
         		<Run Text="2、平均每次打扰用时大约是五分钟，总共大约四小时。"/>
         		<LineBreak/>
