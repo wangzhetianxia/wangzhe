@@ -14,8 +14,8 @@
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot 是包含所有页面内容的根网格-->
-    <Grid x:Name="LayoutRoot" Background="Transparent">
-        <Image Source="indexw.jpg" HorizontalAlignment="Left" Height="758" Margin="10,0,0,0" VerticalAlignment="Top" Width="470"/>
+    <Grid x:Name="LayoutRoot"  Background="Transparent">
+        <Image Source="indexww.jpg" Opacity="0.75" HorizontalAlignment="Left" Height="758" Margin="10,0,0,0" VerticalAlignment="Top" Width="470"/>
         <Button  HorizontalAlignment="Left" Margin="242,108,0,0" VerticalAlignment="Top" Height="141" Width="158" Click="Button_Click_2" FontWeight="Bold" FontSize="28" Foreground="#FF131111" BorderBrush="{x:Null}" >
         
         </Button>
@@ -27,12 +27,12 @@
         <Button FontSize="28" Content="" HorizontalAlignment="Left" Margin="63,272,0,0" VerticalAlignment="Top" Width="161" Height="147" Click="Button_Click_5" FontWeight="Bold" Foreground="#FF151414" BorderBrush="{x:Null}"/>
         <Button FontSize="28" Content="" HorizontalAlignment="Left" Margin="246,446,0,0" VerticalAlignment="Top" Height="153" Width="147" Click="Button_Click_7" FontWeight="Bold" Foreground="#FF292727" BorderBrush="{x:Null}"/>
         <TextBlock Foreground="#FF4C90BF" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="以剑之名——时间规划" VerticalAlignment="Top" Width="460" FontFamily="Buxton Sketch" FontSize="43"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,66,0,0" TextWrapping="Wrap" Text="紧急事件时间管理之"  VerticalAlignment="Top" Width="195" Foreground="#FFD40000" FontWeight="Bold"/>
+        <TextBlock FontSize="28" HorizontalAlignment="Left" Margin="10,76,0,0" TextWrapping="Wrap" Text="紧急事件时间管理之"  VerticalAlignment="Top" Width="277" Foreground="#FFD40000" FontWeight="Bold"/>
         <Button FontSize="28" Content="" HorizontalAlignment="Left" Margin="242,622,0,0" VerticalAlignment="Top" Height="136" Width="158" Click="Button_Click_10" FontWeight="Bold" Foreground="#FF211F1F" BorderBrush="{x:Null}"/>
         <Button FontSize="28" Content="" HorizontalAlignment="Left" Margin="63,446,0,0" VerticalAlignment="Top" Width="161" Height="153" Click="Button_Click_9" FontWeight="Bold" Foreground="#FF2E2B2B" BorderBrush="{x:Null}"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,251,0,0" TextWrapping="Wrap" Text="好友生日管理之" VerticalAlignment="Top" Width="195" Foreground="#FFFDA030" RenderTransformOrigin="0.492,0.704"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,419,0,0" TextWrapping="Wrap" Text="时空番外篇之" VerticalAlignment="Top" Width="218" Foreground="#FF397BB2"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,604,0,0" TextWrapping="Wrap" Text="时间小窍门之" VerticalAlignment="Top" Width="207" Foreground="#FF269C2B"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,242,0,0" TextWrapping="Wrap" Text="好友生日管理之" VerticalAlignment="Top" Width="218" Foreground="#FFFDA030" RenderTransformOrigin="0.492,0.704" FontSize="29" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,419,0,0" TextWrapping="Wrap" Text="时空番外篇之" VerticalAlignment="Top" Width="218" Foreground="#FF397BB2" FontWeight="Bold" FontSize="29"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,583,0,0" TextWrapping="Wrap" Text="时间小窍门之" VerticalAlignment="Top" Width="207" Foreground="#FFA306AA" FontWeight="Bold" FontSize="29"/>
        
 
 
