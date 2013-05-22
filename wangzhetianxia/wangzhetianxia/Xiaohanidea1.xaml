@@ -41,7 +41,7 @@
                     </DataTemplate>
                 </phone:LongListSelector.ItemTemplate>
             </phone:LongListSelector>
-            <TextBlock HorizontalAlignment="Left" Margin="10,198,0,0" TextWrapping="Wrap" Text="预知未来：" VerticalAlignment="Top" Width="346" Height="39" FontSize="29.333" Foreground="#FFFFDC00"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,198,0,0" TextWrapping="Wrap" Text="预知未来： " VerticalAlignment="Top" Width="346" Height="39" FontSize="29.333" Foreground="#FFFFDC00"/>
         	<TextBlock HorizontalAlignment="Left" Margin="10,346,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="49" Width="367" FontSize="26.667" Text="未来之领袖：" Foreground="#FFFFDC00"/>
             <Button x:Name="button2" Content="提 交" HorizontalAlignment="Left" Margin="251,274,0,0" VerticalAlignment="Top" Height="77" Width="159" Click="Button_Click_1" Background="#FFBC98BD" Foreground="#FFFFF300"/>
             <phone:LongListSelector x:Name="ListItems1" HorizontalAlignment="Left" Margin="10,395,0,10" Width="436" Foreground="#FFF3FF00" >

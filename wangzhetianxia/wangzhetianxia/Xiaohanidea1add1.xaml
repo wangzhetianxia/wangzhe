@@ -35,7 +35,7 @@
         		<Run Text="生者"/>
         		<Run Text="："/>
         	</TextBlock>
-        	<TextBlock HorizontalAlignment="Left" Margin="24,211,0,0" TextWrapping="Wrap" Text="出生日期：（月/日：如8/20）" VerticalAlignment="Top" Height="56" Width="422" FontSize="29.333" Foreground="#FFA2FF00"/>
+        	<TextBlock HorizontalAlignment="Left" Margin="24,211,0,0" TextWrapping="Wrap" Text="出生日期：（月/日：如8/20） " VerticalAlignment="Top" Height="56" Width="422" FontSize="29.333" Foreground="#FFA2FF00"/>
         	<TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="72" Margin="24,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="287" TextChanged="textbox1_TextChanged" Background="#BFF59393" Foreground="#FFB9FF00" />
         	<TextBox x:Name="textbox2" HorizontalAlignment="Left" Height="72" Margin="24,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="287" TextChanged="textbox2_TextChanged" Background="#BFF98282" Foreground="#FFF3FF00"/>
         	<Button x:Name="button1" Content="提  交" HorizontalAlignment="Left" Margin="24,402,0,0" VerticalAlignment="Top" Height="87" Width="166" FontSize="32" Click="button1_Click" Background="#FFF78383" Foreground="#FFE8FF00"/>

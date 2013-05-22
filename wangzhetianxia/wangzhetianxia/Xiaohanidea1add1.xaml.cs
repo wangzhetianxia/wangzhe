@@ -26,6 +26,7 @@ namespace wangzhetianxia
 
         private IMobileServiceTable<birthday> todoTable = App.MobileService.GetTable<birthday>();
         String username;
+
         public Xiaohanidea1add1()
         {
             InitializeComponent();

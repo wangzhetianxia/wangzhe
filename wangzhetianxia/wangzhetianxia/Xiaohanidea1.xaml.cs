@@ -17,6 +17,7 @@ namespace wangzhetianxia
         String username;
         String time;
         String name;
+
         private MobileServiceCollection<birthday, birthday> birth;
         private MobileServiceCollection<birthday, birthday> birth2;
         private IMobileServiceTable<birthday> todoTable = App.MobileService.GetTable<birthday>();
